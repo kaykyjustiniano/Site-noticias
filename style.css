@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url(/imagens/fundo.png);
+  background-repeat: repeat-x;
+}
+
+.conteiner{
+  padding: 20px;
+  width: 800px;
+  margin: 0 auto;
+  background: url(/imagens/detalhe-topo.png) no-repeat top right;
+}
+
+.topo{
+  height: 170px;
+  background: url(/imagens/logo.png) no-repeat top left;
+  
+}
+
+nav{
+  
+  width: 720px;
+  padding-top: 100px;
+  
+}
+
+nav ul{
+  
+  border-radius: 2px;
+  list-style: none;
+  background-image: linear-gradient(#D92525, darkred);
+  float: left;
+}
+
+nav ul li{
+  
+  background: url(/imagens/divisor.png) no-repeat left;
+  text-align: center;
+  padding: 10px;
+  float: left;
+}
+
+.direito{
+  background: none;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+
+section{
+  margin-top: 20px;
+}
+
+.conteudo{
+  margin: 0 auto;
+  width: 820px;
+  background-color: greenyellow;
+}
+
+.area-lateral-esquerda,.area-lateral-direito{
+  width: 150px;
+  height: 350px;
+  background-color: gold;
+}
+
+.area-lateral-esquerda{
+  float: left;
+}
+
+
+.area-conteudo{
+  margin: 0 10px;
+  float: left;
+  width: 500px;
+  height: 350px;
+  background-color: red;
+}
+
+.area-lateral-direito{
+  float: right;
+}
+
+#textos-navegacao{
+  text-align: center;
+  display: inline-block;
+  width: 
+  100%;
+  height: 30px;
+  background-color: red;
+}
+#textos-navegacao p{
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lista-navegacao{
+  
+  
+  list-style: none;
+  
+  
+}
+#lista-navegacao li{
+  
+  border: 1px solid black;
+  padding: 0.5em 1em;
+}
